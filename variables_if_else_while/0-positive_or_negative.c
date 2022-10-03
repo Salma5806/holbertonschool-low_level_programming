@@ -7,13 +7,15 @@
  */
 int main(void)
 {
-	int a  ;
+	int a;
 	printf("enter the number : ");
 	scanf("%d" , &a) ;
 	if (a>0)
-	printf("is positive")
+	printf("%d is positive\n",a);
+	else if (n == 0)
+	printf("%d is zero\n",a);
 	else
-	printf("is negative")
+	printf("%d is negative\n",a);
 
 return (0);
 }
