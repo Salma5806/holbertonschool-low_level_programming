@@ -6,16 +6,13 @@
  * Return: Always 0.
  */
 int main(void)
-
 {
-	int i = 0;
+	int i;
 
-	while (i <= 9)
-{
+	for(i = 0; i <= 9; i++)
 		printf("%d", i);
-		i++;
-}
-	printf('\n');
+		
+	printf("\n");
 
 	return (0);
 }
