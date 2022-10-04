@@ -10,7 +10,7 @@ int main(void)
 	int i;
 	char ch;
 
-	for (i = 48 ; i <= 57 ; i++)
+	for (i = 0 ; i <= 10 ; i++)
 		putchar((i % 10) + '0');
 
 	for (ch = 97 ; ch <= 102 ; ch++)
