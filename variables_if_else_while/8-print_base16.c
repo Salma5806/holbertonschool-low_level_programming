@@ -7,18 +7,14 @@
  */
 int main(void)
 {
-	int i = 0;
-	char ch = a
-	while (i <= 15)
-{
-		putchar(%d, i);
-		i++;
-}
-	while(ch = "a"; ch <= "f")
-{
-		putchar(%c, ch);
-		ch++;
-}
+	int i;
+	char ch;
+
+	for (i = 0; i <= 9; i++)
+		putchar((i % 10) + '0');
+
+	for(ch = 'a'; ch <= 'f'; ch++);
+		putchar(ch);
 
 	putchar('\n');
 
