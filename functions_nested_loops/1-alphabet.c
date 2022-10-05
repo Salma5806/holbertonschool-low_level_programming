@@ -1,18 +1,14 @@
 #include "main.h"
 
 /**
- * prints tha alphabet in lowercase
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * print_alphabet - prints the alphabet in lowercase, followed by a new line.
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
-	char c;
+	char letter;
 
-	for (c = 'a'; c <= 'z'; c++)
-		_putchar(c);
+	for (letter = 'a'; letter <= 'z'; letter++)
+		_putchar(letter);
 
 	_putchar('\n');
-
 }
