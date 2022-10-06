@@ -2,8 +2,9 @@
 
 /**
  * add - adds two integers and returns the result.
- *
- * Return.
+ * @n1: the first integer.
+ * @n2: the second integer.
+ * Return: the result of the addition.
  */
 int add(int n1, int n2)
 }
