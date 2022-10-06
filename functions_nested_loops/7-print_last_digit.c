@@ -9,12 +9,12 @@
 int print_last_digit(int n)
 {
 
-	int ld = n % 10;
+	int last_digit = n % 10;
 
-	if (ld < 0)
-		ldn = -1
+	if (last_digit < 0)
+		last_digit_new = -1;
 
-	_putcha(ld + '0');
+	_putcha(last_digit + '0');
 
-		return (ld);
+		return (last_digit);
 }
