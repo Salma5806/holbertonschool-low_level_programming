@@ -6,7 +6,7 @@
  * @b: the second integer.
  * Return: the result of the multiplication.
  */
-int mul(int a, int nb)
+int mul(int a, int b)
 {
-	return (a * nb);
+	return (a * b);
 }
