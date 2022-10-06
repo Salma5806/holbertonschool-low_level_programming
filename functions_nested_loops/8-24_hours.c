@@ -2,9 +2,7 @@
 
 /**
  * jack_bauer - prints every minute of the day of jack Bauer.
- * @n: prints minute.
  *
- * Return: .
  */
 void jack_bauer(void)
 {
