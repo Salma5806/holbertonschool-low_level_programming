@@ -9,11 +9,19 @@
 void jack_bauer(void)
 {
 
-	time_t seconds;
-	struct tm *timeStruct;
+	int hour, minute;
 
-	seconds = time(Null);
+	for (hour = 1; hour <= 24; hour++)
+	{
 
-	timeStruct = localtime(&seconds);
-	    _putchar("Current time : %d:%d:%d\n", timeStruct->tm_hour, timeStruct->tm_min, timeStruct->tm_sec);
-}
+		for (minute = 0; minute <= 59; minute++)
+		{
+			_putchar((hour / 10) + '0');
+			_putchar((hour % 10) + '0');
+			_putchar(':');
+			_putchar((minute / 10) + '0');
+			_putchar((minute % 10) + '0');
+			_putchar('\n');
+		}
+	}
+} 
