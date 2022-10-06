@@ -6,7 +6,7 @@
  * @n2: the second integer.
  * Return: the result of the addition.
  */
-nt add(int num1, int num2)
+nt add(int n1, int n2)
 {
-	return (num1 + num2);
+	return (n1 + n2);
 }
