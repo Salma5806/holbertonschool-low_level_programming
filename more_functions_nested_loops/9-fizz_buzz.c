@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * prints the numbers from 1 100.
+ *main - prints the numbers from 1 100.
+ * return: always 0.
  */
 int main(void)
 {
@@ -10,7 +11,7 @@ int main(void)
 	for (i = 1; i <= 100; i++)
 
 	{
-		if (((i%3) == 0)&& ((i %5 )==0))
+		if (((i % 3) == 0) && ((i % 5 )==0))
 			printf("FizzBuzz");
 		else if ((i % 3) == 0 )
 			printf("Fizz");
