@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_line - prints draws a straight line in the terminal.
+ * print_square - prints a square followed by a new line.
  * @size: the size of the square.
  */
 void print_square(int size)
 {
-	int l,d;
+	int l, d;
 
 	if (size > 0)
 	{
