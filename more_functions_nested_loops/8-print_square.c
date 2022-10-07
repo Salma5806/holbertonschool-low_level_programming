@@ -2,7 +2,7 @@
 
 /**
  * print_line - prints draws a straight line in the terminal.
- * @n: the number to be printed.
+ * @size: the size of the square.
  */
 void print_square(int size)
 {
