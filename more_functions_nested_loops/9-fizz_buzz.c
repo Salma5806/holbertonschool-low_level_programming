@@ -2,7 +2,7 @@
 
 /**
  * prints the numbers from 1 100.
- *//
+ */
 {
 	int i;
 
