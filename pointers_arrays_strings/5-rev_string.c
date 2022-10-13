@@ -24,10 +24,3 @@ void rev_string(char *s)
 		length2 -= 1;
 	}
 }
-
-
-
-
-
-
-}
