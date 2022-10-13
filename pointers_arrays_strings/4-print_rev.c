@@ -4,7 +4,7 @@
  * print_rev - prints a string, in reverse,followed by a new line.
  * @s: string in reverse.
  */
-oid print_rev(char *s)
+void print_rev(char *s)
 {
 	int l = 0, i;
 
