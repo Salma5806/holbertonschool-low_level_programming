@@ -4,7 +4,7 @@
  * void _puts - prints a string.
  * @str: the string.
  */
-void _puts(char *str);
+void _puts(char *str)
 {
 	int index = 0;
 	while(*str != '\0')
