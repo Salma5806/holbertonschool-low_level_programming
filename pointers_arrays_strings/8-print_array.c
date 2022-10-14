@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_array - Prints arrays.
  * @a: parameter pointer.
@@ -11,10 +12,11 @@ void print_array(int *a, int n)
 
 	for (i = 0; i < n; i++)
 	{
-	printf("%d\n", a[i]);
+		printf("%d", a[i]);
 
-	if (i < (n - 1))
-		printf(", ");
+		if (i < (n - 1))
+			printf(", ");
 	}
 
+	printf("\n");
 }
