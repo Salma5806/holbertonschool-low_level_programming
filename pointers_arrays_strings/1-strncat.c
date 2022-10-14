@@ -4,6 +4,7 @@
  * char *_strncat - appends the src string to the dest string.
  * @dest: parameter to the buffer pointed.
  * @src: string pointed.
+ * @n: 3rd prameter.
  * Return: a pointer to the destination string @dest.
  */
 char *_strncat(char *dest, char *src, int n)
