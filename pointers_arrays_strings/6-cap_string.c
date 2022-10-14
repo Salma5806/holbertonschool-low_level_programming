@@ -20,7 +20,6 @@ char *cap_string(char *x)
 		i++;
 		}
 		a++;
-
 	}
-	return x;
+	return (x);
 }
