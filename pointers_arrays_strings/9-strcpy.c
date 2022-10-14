@@ -13,6 +13,7 @@ char *_strcpy(char *dest, char *src)
 	while (dest[c] != src[c])
 	{
 		c++;
+		dest++;
 	}
 
 	return src;
