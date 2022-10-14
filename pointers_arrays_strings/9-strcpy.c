@@ -1,5 +1,5 @@
 #include "main.h"
-#include <string.h>
+#include <stdio.h>
 /**
  * char *_strcpy - copies the string pointed.
  * @dest: parameter to the buffer pointed.
@@ -8,12 +8,12 @@
 char *_strcpy(char *dest, char *src)
 {
 	int c = 0;
-	while (dest[s] != '\0')
-		s++;
+	while (dest[c] != '\0')
+		c++;
 		dest++;
 
-	printf("%c", dest[s]);
+	printf("%c", dest[c]);
 	printf("\n");
-	printf("%c", dest[s]);
+	printf("%c", dest[c]);
 
 }
