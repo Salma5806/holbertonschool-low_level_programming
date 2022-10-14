@@ -7,10 +7,13 @@
 
 void print_array(int *a, int n)
 {
-	int a, i, n;
+	int i;
 
 	for (i = 0; i < n; i++)
 		*a = i + 1;
 		a++;
-	printf("\n numbers [%d] = %d", i, numbers[i]);
+	{
+	printf(", %d", a[i]);
+	}
+	ptintf("\n");
 }
