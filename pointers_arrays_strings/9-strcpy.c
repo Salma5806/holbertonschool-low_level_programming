@@ -16,5 +16,5 @@ char *_strcpy(char *dest, char *src)
 		c++;
 	}
 
-	return dest;
+	return (dest);
 }
