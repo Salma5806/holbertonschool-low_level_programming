@@ -1,3 +1,4 @@
+
 #include "main.h"
 #include <stdio.h>
 #include <string.h>
@@ -9,17 +10,16 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int i, len1, len2;
+	int len = 0, i;
 
-	len1 = strlen(dest);
-	len2 = strlen(src);
+	while (dest[len])
+		len++;
 
-	for (i = 0; i < len2; i++)
+	for (i = 0; src[i] != '\0'; i++)
 	{
-		dest[len1] = src[i];
-		len2 += 1;
+		dest[len] = src[i];
+		len += 1;
 	}
-	dest[len1] = '\0';
+	dest[len] = '\0';
 	return dest;
-
 }
