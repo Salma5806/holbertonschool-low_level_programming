@@ -10,6 +10,7 @@
 char *_strpbrk(char *s, char *accept)
 {
 	int a = 0, b;
+
 	while (s[a])
 	{
 		b = 0;
@@ -17,10 +18,10 @@ char *_strpbrk(char *s, char *accept)
 		while (accept[b])
 		{
 			if (s[a] == accept[b])
-				{
-					s += a;
-					return (s);
-				}
+			{
+				s += a;
+				return (s);
+			}
 			b++;
 		}
 		a++;
