@@ -18,6 +18,7 @@ char *leet(char *x)
 		{
 			if (x[a] == tr[b] || x[a] - 32 == tr[b])
 				x[a] = trw[b];
+				b++;
 		}
 	a++;
 	}
