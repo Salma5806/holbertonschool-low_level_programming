@@ -1,7 +1,8 @@
 # include "main.h"
 /**
-*
-*
+* leet - a leet function.
+* @x: param x.
+* Return: a string
 */
 char *leet(char *x)
 {
