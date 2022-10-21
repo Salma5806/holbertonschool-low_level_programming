@@ -5,7 +5,7 @@
 * @argc: argc parameter.
 * @argv: an array of a command listed.
 */
-int main(int argc, char *argv[] __attribute__((unused))
+int main(int argc, char *argv[] __attribute__((unused)))
 {
 
 	printf("%d\n", argc - 1);
