@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <string.h>
 /**
 * _strlen - count and returns string length
 * @s: that s the string
@@ -15,7 +16,7 @@ int _strlen(char *s)
 
 	while (*s)
 	{
-		counter++;
+		counte++;
 		s++;
 	}
 	return (counter);
