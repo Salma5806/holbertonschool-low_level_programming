@@ -50,7 +50,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		new[i] = s1[i];
 	}
-	for (j = 0; s2[j]; j++)
+	for (j = 0; s2[j]; j++, i++)
 	{
 		new[i] = s2[j];
 	}
