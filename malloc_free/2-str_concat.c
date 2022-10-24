@@ -16,10 +16,10 @@ int _strlen(char *s)
 
 	while (*s)
 	{
-		counte++;
+		count++;
 		s++;
 	}
-	return (counter);
+	return (count);
 }
 
 /**
