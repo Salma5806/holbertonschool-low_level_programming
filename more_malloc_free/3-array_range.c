@@ -9,6 +9,7 @@
  */
 int *array_range(int min, int max)
 {
+
 	int *arr;
 	int i, len, cumul = max -min;
 
