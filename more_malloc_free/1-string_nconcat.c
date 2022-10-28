@@ -12,18 +12,24 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *arr;
-	unsigned int i = 0, j = 0, k, k2;
+	unsigned int i ,j , k, k2;
 
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
 
+	i = 0;
 	while (s1[i] != '\0')
+	{
 	i++;
+	}
 
+	j = 0;
 	while (s2[i] != '\0')
-	j++
+	{
+		j++
+	}
 
 	if (n < j)
 		j = n;
