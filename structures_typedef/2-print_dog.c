@@ -5,44 +5,28 @@
 *print_dog - Prints all the data of a dog
 * @d: A dog structure
 *
-* Return: Nothing
 */
 
 void print_dog(struct dog *d)
 {
-	if (d != NULL)
-{
-		{
-		if (Name = NULL )
-			{
-			printf("Name: (nil)", d->name);
-			}
-		else
-			{
-			printf("Name: %s\n", d->name);
-			}
+	if (d == NULL)
+		return;
 
-		}
-		{
-		if (Age = NULL)
-			{
-			printf("Age: (nil)", d->age);
-			}
-		else
-			{
-			printf("Age: %f\n", d->age);
-			}
-		}
+	if (d->name == NULL )
 
-		{
-		if (Owner = NULL)
-			{
-			printf("Owner: (nil)", d->owner);
-			}
-		else
-			{
-			printf("Owner: %s\n", d->owner);
-			}
-		}
-}
+		printf("Name: (nil)\n");
+	else
+		printf("Name: %s\n", d->name);
+
+	if (d->age < 0)
+
+		printf("Age: (nil)\n");
+	else
+		printf("Age: %f\n", d->age);
+
+	if (d->owner == NULL)
+
+		printf("Owner: (nil)\n");
+	else
+		printf("Owner: %s\n", d->owner);
 }
