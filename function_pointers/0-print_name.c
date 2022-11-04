@@ -37,8 +37,8 @@ void print_name_is(char *name)
 
 int main()
 {
-	print_name(print_name_is);
-	print_name(print_name_uppercase);
+	print_name("%s\n" , print_name_is);
+	print_name("%s\n", print_name_uppercase);
 	printf("\n");
 
 	return 0;
