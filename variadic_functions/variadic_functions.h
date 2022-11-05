@@ -1,6 +1,7 @@
 #ifndef HOLBERTON_H_INCLUDED
 #define HOLBERTON_H_INCLUDED
 #include <stdlib.h>
+#include <stdarg.h>
 
 int _putchar(char);
 int sum_them_all(const unsigned int n, ...);
