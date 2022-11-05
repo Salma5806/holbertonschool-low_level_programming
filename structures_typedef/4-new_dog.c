@@ -3,9 +3,11 @@
 #include <stdlib.h>
 
 /**
-*
-*
-*/
+ * _strlen - Finds the length of a string.
+ * @str: The string to be measured.
+ *
+ * Return: The length of the string.
+ */
 int _strlen(char *s)
 {
 	int x = 0;
@@ -20,9 +22,13 @@ int _strlen(char *s)
 }
 
 /**
-*
-*
-*/
+ * _strcopy - Copies a string pointed to by src, including the
+ *            terminating null byte, to a buffer pointed to by dest.
+ * @dest: The buffer storing the string copy.
+ * @src: The source string.
+ *
+ * Return: The pointer to dest.
+ */
 char *_strncpy(char *dest, char *src, int  n)
 {
 	int i = 0, src_len = 0;
