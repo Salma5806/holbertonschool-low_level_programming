@@ -9,7 +9,7 @@
  *
  * Return: Always 0.
  */
-int main(int __attribute__((__unused_)) argc, char *argv[])
+int main(int __attribute__((__unused_)) argc, char * argv[])
 {
 	int num1, num2;
 	char *op;
