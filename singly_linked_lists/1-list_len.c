@@ -3,7 +3,7 @@
 #include <string.h>
 #include <stdio.h>
 /*
-*list_len - finds the number of elements in a linked list_t list
+* list_len - finds the number of elements in a linked list_t list
 * @h: the linked list_t list.
 *
 * Return: the number of element in h
