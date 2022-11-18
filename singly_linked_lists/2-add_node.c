@@ -21,13 +21,31 @@ list_t *add_node(list_t **head, const char *str)
 		if (newnode == NULL)
 			return (NULL);
 
-		for (len = 0; str[len]; len++)
-
 		newnode->str = strdup(str);
-		newnode->len = len;
+		newnode->len = strlen(str);
 		newnode->next = *head;
 
 		*head = newnode;
+		return (newnode);
 	}
-	return (newnode);
+	return (0);
+
+}
+/**
+ * _strlen - returns the length of a string.
+ * @s: pointer of string.
+ *
+ * Return: the length of @s.
+ */
+int _strlen(char *s)
+{
+	int x = 0;
+
+	while (*s != '\0')
+	{
+	x++;
+	s++;
+	}
+
+	return (x);
 }
