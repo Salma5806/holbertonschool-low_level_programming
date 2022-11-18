@@ -42,21 +42,21 @@ list_t *add_node_end(list_t **head, const char *str)
 	}
 	return  (NULL);
 }
-
 /**
-* _stlen - returns the length of a string
-* @s: string to count
-*
-* Return: string length
-*/
-int _strlen(const char *s)
+ * _strlen - returns the length of a string.
+ * @s: pointer of string.
+ *
+ * Return: the length of @s.
+ */
+int _strlen(char *s)
 {
-	int count = 0;
+	int x = 0;
 
 	while (*s != '\0')
 	{
-		s++;
-		count++;
+	x++;
+	s++;
 	}
-	return (count);
+
+	return (x);
 }
