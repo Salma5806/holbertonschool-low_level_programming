@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
-/*
-* list_len - finds the number of elements in a linked list_t list
-* @h: the linked list_t list.
+/**
+* list_len - Show the number of elements of a list
+* @h: A linked list
 *
-* Return: the number of element in h
+* Return: The number of elements of a list
 */
 size_t list_len(const list_t *h)
 {
