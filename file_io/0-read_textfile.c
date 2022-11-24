@@ -2,9 +2,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-*
-*
-*
+* read_file - reads a text file and prints it to the POSIX standard output.
+* @filename: the souce file
+* @letters: number of letters to reads and prints
+* Return: letters
 */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
@@ -17,13 +18,14 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (filename == NULL)
 		return (0);
 
-	fd = fopen("filename", "r");
-	if (fd == NULL)
+	fd = open(filename, O_RDONLY, 0600);
+	if (fd == -1)
 		return (0);
 
-	readed = fread(fd, buff, letters);
-	fwrite(STDOUT_FILENO, buff, readed);
+	readed = read(fd, buff, letters);
+	write(STDOUT_FILENO, buff, readed);
 
 	close(fd);
 	return (readed);
+
 }
