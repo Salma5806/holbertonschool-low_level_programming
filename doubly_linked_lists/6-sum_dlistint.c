@@ -2,8 +2,8 @@
 #include <string.h>
 #include <stdio.h>
 #include "lists.h"
-/*
-* sum_listint - calculates the sum of all the data (n) of a listint_t list
+/**
+* sum_dlistint - calculates the sum of all the data (n) of a listint_t list
 * @head: a pointer to the head of the listint_t list
 *
 * Return: if the list is empty
