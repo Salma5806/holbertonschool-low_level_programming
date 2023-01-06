@@ -6,7 +6,7 @@
 * @array: is a pointer to the first element of the array to search 
 * @size: is the number of elements in array
 * @value: is the value to search for
-* REturn: the first index where value is located
+* Return: the first index where value is located
 */
 int binary_search(int *array, size_t size, int value)
 {
@@ -17,7 +17,7 @@ int binary_search(int *array, size_t size, int value)
 
 	while (start_index <= end_index)
 	{
-		mid = (end_index + start_index) / 2;
+		mid_index = (end_index + start_index) / 2;
 		i = start_index;
 
 		printf("Searching in array: ");
