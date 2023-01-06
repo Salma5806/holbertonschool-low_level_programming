@@ -34,10 +34,12 @@ int binary_search(int *array, size_t size, int value)
 		{
 			end_index = mid_index - 1;
 		}
-		else
+		else if (array[mid_index] < value)
 		{
 			start_index = mid_index + 1;
 		}
+		else
+			return (mid_index);
 	}
 	return -1;
 }
