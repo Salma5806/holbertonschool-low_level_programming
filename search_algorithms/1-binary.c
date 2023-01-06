@@ -2,9 +2,11 @@
 #include <stdlib.h>
 #include "search_algos.h"
 /**
-*
-*
-*
+* binary_search - searches for a value in a sorted array of integers
+* @array: is a pointer to the first element of the array to search 
+* @size: is the number of elements in array
+* @value: is the value to search for
+* REturn 
 */
 int binary_search(int *array, size_t size, int value)
 {
@@ -16,7 +18,7 @@ int binary_search(int *array, size_t size, int value)
 		return (-1);
 	while (start_index <= end_index)
 	{
-		mid_index = start_index + (size / 2);
+		mid_index = (start_index + end_index) / 2;
 			i = start_index;
 
 		printf("Searching in array:");
